@@ -1,11 +1,9 @@
 #Task 1
 
 number = input("Provide me a number :")
-print(number)
-string = "This is odd number"
+string = number + " is an odd number"
 if(int(number) % 2 == 0):
-    string = "This is even number"
-
+    string = number + " is an even number"
 
 print(string)
 
@@ -25,4 +23,5 @@ for i in range(1,50):
 
 if finalResult is not None:
     print(finalResult)
+    print("The sum of numbers from 1 to 50 is : 1225")
     
